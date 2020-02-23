@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    background: #fff;
+    color: #555555;
+    font-family: 'Lato', 'Arial',sans-serif;
+    font-size:20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+
+}
+
+.row{
+    max-width: 1350px;
+    margin: 0px auto;
+}
+
+h1{
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    word-spacing: 3px;
+    color: #fff;
+    font-size: 200%;
+    letter-spacing: 1px;
+
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(imag/pobednik1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.naslov{
+    position: absolute;
+    width: 1140px;
+    text-align: center;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    
+}
+
+
+.logo{
+   
+    height: 40px ;
+    width: auto;
+    float: right;
+    margin-top: 40px;
+    
+    
+
+}
+
+.main-nav{
+    float: left;
+    list-style: none;
+    margin-top: 55px;
+}
+
+
+.main-nav li {
+    display: inline-block;
+    margin-right:  40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding: 8px 0px; 
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    transition: border-bottom 0.2s;
+    border-bottom: 2px solid transparent; 
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+
+    border-bottom: 2px solid #329468;
+}
+
+
+.btn:link, 
+.btn:visited{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    margin-top: 20px;
+    transition: background-color 0.2s,border 0.2s,color 0.2s;
+    
+}
+.btn-full:link,
+.btn-full:visited{
+    color: white;
+    background: #329468;
+    border: 1px solid #329468;
+    
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    border: 1px solid #329468;
+    color: #329468;
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #329468;
+   
+    
+}
+.btn-full:hover,
+.btn-full:active{
+    
+    border: 1px solid #329468;
+    
+}
+
+.btn-ghost:hover,
+.btn-ghost:active{
+    border: 1px solid #329468;
+    color: #fff;
+}
